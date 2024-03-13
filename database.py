@@ -6,4 +6,4 @@ engine = create_engine(
 
 with engine.connect() as conn:
   result = conn.execute(text("select * from trial"))
-  print(result.all())
+  print(result.all()) 
